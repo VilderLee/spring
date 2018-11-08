@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springtest" />
+        <module name="tiny-ioc" />
+        <module name="tiny-ioc (2)" />
+        <module name="tiny-ioc (3)" />
+        <module name="tiny-ioc (4)" />
+        <module name="tiny-spring" />
+        <module name="tiny-spring (1)" />
+        <module name="tiny-spring (2)" />
+        <module name="tiny-spring (3)" />
+        <module name="tiny-spring (4)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springtest" target="1.5" />
+      <module name="tiny-ioc" target="1.6" />
+      <module name="tiny-ioc (1)" target="1.6" />
+      <module name="tiny-ioc (2)" target="1.6" />
+      <module name="tiny-ioc (3)" target="1.6" />
+      <module name="tiny-ioc (4)" target="1.6" />
+      <module name="tiny-spring" target="1.6" />
+      <module name="tiny-spring (1)" target="1.6" />
+      <module name="tiny-spring (2)" target="1.6" />
+      <module name="tiny-spring (3)" target="1.6" />
+      <module name="tiny-spring (4)" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

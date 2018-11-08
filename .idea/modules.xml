@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring.iml" filepath="$PROJECT_DIR$/.idea/spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springtest/springtest.iml" filepath="$PROJECT_DIR$/springtest/springtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tiny-spring-step-1-container-register-and-get/tiny-ioc.iml" filepath="$PROJECT_DIR$/tiny-spring-step-1-container-register-and-get/tiny-ioc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tiny-spring-step-2-abstract-beanfactory-and-do-bean-initilizing-in-it/tiny-ioc (1).iml" filepath="$PROJECT_DIR$/tiny-spring-step-2-abstract-beanfactory-and-do-bean-initilizing-in-it/tiny-ioc (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/tiny-spring-step-3-inject-bean-with-property/tiny-ioc (2).iml" filepath="$PROJECT_DIR$/tiny-spring-step-3-inject-bean-with-property/tiny-ioc (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/tiny-spring-step-4-config-beanfactory-with-xml/tiny-ioc (3).iml" filepath="$PROJECT_DIR$/tiny-spring-step-4-config-beanfactory-with-xml/tiny-ioc (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/tiny-spring-step-5-inject-bean-to-bean/tiny-ioc (4).iml" filepath="$PROJECT_DIR$/tiny-spring-step-5-inject-bean-to-bean/tiny-ioc (4).iml" />
+      <module fileurl="file://$PROJECT_DIR$/tiny-spring-step-6-invite-application-context/tiny-spring.iml" filepath="$PROJECT_DIR$/tiny-spring-step-6-invite-application-context/tiny-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tiny-spring-step-7-method-interceptor-by-jdk-dynamic-proxy/tiny-spring (1).iml" filepath="$PROJECT_DIR$/tiny-spring-step-7-method-interceptor-by-jdk-dynamic-proxy/tiny-spring (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/tiny-spring-step-8-invite-pointcut-and-aspectj/tiny-spring (2).iml" filepath="$PROJECT_DIR$/tiny-spring-step-8-invite-pointcut-and-aspectj/tiny-spring (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/tiny-spring-step-9-auto-create-aop-proxy/tiny-spring (3).iml" filepath="$PROJECT_DIR$/tiny-spring-step-9-auto-create-aop-proxy/tiny-spring (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/tiny-spring-step-10-invite-cglib-and-aopproxy-factory/tiny-spring (4).iml" filepath="$PROJECT_DIR$/tiny-spring-step-10-invite-cglib-and-aopproxy-factory/tiny-spring (4).iml" />
+    </modules>
+  </component>
+</project>
