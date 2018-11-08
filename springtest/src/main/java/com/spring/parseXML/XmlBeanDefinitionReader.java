@@ -1,5 +1,6 @@
 package com.spring.parseXML;
 
+import com.spring.factory.BeanDefinition;
 import com.spring.io.ResourceLoader;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -52,6 +53,8 @@ public class XmlBeanDefinitionReader extends AbstractBeanDefinitionReader {
 
         try {
             Document document = dbf.newDocumentBuilder().parse(inputStream);
+
+            //获取节点beans
             Element element = document.getDocumentElement();
             elementParse(element);
 
@@ -65,18 +68,27 @@ public class XmlBeanDefinitionReader extends AbstractBeanDefinitionReader {
     }
 
     private void elementParse(Element element) {
+
+        //拿到beans下面所有的子节点
         NodeList nodeList = element.getChildNodes();
 
         for (int i = 0; i < nodeList.getLength(); i++) {
-            Node node = nodeList.item(i);
 
+            //拿到具体的bean
+            Node node = nodeList.item(i);
             if(node instanceof Element){
-                elementParse((Element) node);
-            }else {
+                Element ele = (Element) node;
+                parseBean(ele);
 
             }
 
         }
+    }
+
+    private void parseBean(Element ele) {
+        BeanDefinition beanDefinition = new BeanDefinition();
+        beanDefinition.setBeanName(ele.getAttribute("id"));
+        beanDefinition.setBeanClass(ele.getAttribute("id"));
     }
 
     /**

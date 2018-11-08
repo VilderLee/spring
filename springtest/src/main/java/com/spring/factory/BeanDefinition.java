@@ -31,8 +31,16 @@ public class BeanDefinition {
         return beanClass;
     }
 
-    public void setBeanClass(Class beanClass) {
-        this.beanClass = beanClass;
+    public void setBeanClass(String beanClass) {
+
+        Class cls = null;
+        try {
+            cls = Class.forName(beanClass);
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+
+        this.beanClass = cls;
     }
 
     public Object getBean() {
